@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    background-color: whitesmoke;
+}
+
+.wholebody {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    
+}
+
+.headbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    
+    
+}
+.title {
+    
+    border: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin: 0px;
+}
+
+.feed{
+    display: block;
+    
+}
+
+.post{
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 640px;
+    height: 800px;
+
+
+}
+
+.post-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.post-title{
+    font-size: large;
+    font-weight: 400;
+
+}
+
+.post-date{
+    font-weight: 100;
+
+}
+
+
+.post-copy{
+    font-size: large;
+    font-weight: 100;
+    
+}
